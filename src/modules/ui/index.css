@@ -1,0 +1,32 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.aside {
+    width: 20vw;
+    height: 100vh;
+    background: darkslategray;
+}
+
+.logoSection {
+    display: flex;
+    width: 100%;
+    padding: .6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: aliceblue;
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+}
+
+.main {
+    width: 80vw;
+    height: 100vh;
+    background: rgb(227, 246, 195);
+}
