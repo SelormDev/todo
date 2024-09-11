@@ -1,5 +1,9 @@
-import ui from './modules/ui'
 import './app.css'
+import nav from './modules/ui/nav'
+import main from './modules/ui/main'
+import aside from './modules/ui/aside'
 
-const app = document.getElementsByTagName('body');
-app.appendChild(ui);
+const app = document.getElementById('app');
+app.appendChild(nav);
+app.appendChild(main);
+app.appendChild(aside);

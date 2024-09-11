@@ -12,6 +12,16 @@
 body {
     font-family: 'Nunito', sans-serif;
     background: #f4f4f4;
-    color: #333;
+    color: #282846;
     line-height: 1.6;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 6rem 1fr;
+    height: 100vh;
+    grid-template-areas:
+        "aside nav"
+        "aside main";
 }
