@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Nunito';
+    src: url("./font/Nunito-VariableFont_wght.ttf");
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     background: #f4f4f4;
     color: #333;
     line-height: 1.6;
