@@ -1,0 +1,47 @@
+.logoSection {
+    display: flex;
+    width: 100%;
+    padding: 1.5rem 0;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 1rem;
+    gap: 20px;
+    color: aliceblue;
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+}
+
+.categories {
+
+    h2 {
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: #29A19C;
+    }
+
+
+    ul {
+        list-style: none;
+        width: 100%;
+
+        li {
+            padding: .5rem;
+
+            a {
+                text-decoration: none;
+                color: aliceblue;
+                font-size: 1.2rem;
+                font-weight: 500;
+                padding-left: 1rem;
+            }
+        }
+
+        li:hover {
+            background: #29A19C;
+            border-radius: 0 1.5rem 1.5rem 0;
+        }
+    }
+}
