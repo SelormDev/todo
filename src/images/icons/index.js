@@ -1,0 +1,11 @@
+export { default as barChart } from './bar-chart.svg';
+export { default as briefcase } from './briefcase.svg';
+export { default as calendar } from './calendar.svg';
+export { default as clock } from './clock.svg';
+export { default as home } from './home.svg';
+export { default as moon } from './moon.svg';
+export { default as plusSquare } from './plus-square.svg';
+export { default as sun } from './sun.svg';
+export { default as trendingUp } from './trending-up.svg';
+export { default as users } from './users.svg';
+export { default as zap } from './zap.svg';
