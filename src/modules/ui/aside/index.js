@@ -1,6 +1,6 @@
 import "./index.css"
 import logo from "./../../../images/logo.svg"
-import { barChart, briefcase, calendar, clock, home, moon, plusSquare, sun, trendingUp, users, zap } from "./../../../images/icons"
+import { briefcase, home, users, zap } from "./../../../images/icons"
 
 const aside = document.createElement("div")
 aside.classList.add("aside")
