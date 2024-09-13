@@ -1,0 +1,22 @@
+.information {
+    flex: 1;
+}
+
+.timeAndDateContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.timeValue,
+.dateValue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.calendar-icon,
+.clock-icon {
+    width: 18px;
+}
