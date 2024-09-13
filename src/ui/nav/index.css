@@ -1,0 +1,59 @@
+.nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+}
+
+.addTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    background: #29A19C;
+    border: none;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f4f4f4;
+
+
+}
+
+.addTask:hover {
+    background: #29a19dbb;
+    cursor: pointer;
+}
+
+.moon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding: 0 0px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    .avatar {
+        width: 50px;
+    }
+}
+
+.dropdown {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 1px #29A19C1a;
+    cursor: pointer;
+}
