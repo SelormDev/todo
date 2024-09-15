@@ -21,9 +21,12 @@ aside.appendChild(logoSection)
 
 const categories = document.createElement("div")
 categories.classList.add("categories")
+
 const categoriesTitle = document.createElement("h2")
 categoriesTitle.textContent = "Categories"
+
 const catgoriesArray = [{ name: "Home", icon: `${home}` }, { name: "Tasks", icon: `${users}` }, { name: "Projects", icon: `${briefcase}` }, { name: "Notes", icon: `${zap}` }]
+
 const categoriesList = document.createElement("ul")
 catgoriesArray.forEach(category => {
     const categoryItem = document.createElement("li")
