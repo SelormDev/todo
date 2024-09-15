@@ -7,7 +7,7 @@ tasksSection.classList.add("tasksSection")
 const progress = document.createElement("div")
 progress.classList.add("progress")
 
-const heading = document.createElement("h2")
+const heading = document.createElement("h3")
 heading.innerHTML = "Progress of the week"
 
 const container = document.createElement("div")
@@ -15,26 +15,26 @@ container.classList.add("progressContainer")
 
 const tasks = document.createElement("div")
 tasks.classList.add("tasks")
-const tasksHeading = document.createElement("h3")
+const tasksHeading = document.createElement("h4")
 tasksHeading.innerHTML = currentTasks.length
 
 const completed = document.createElement("div")
 completed.classList.add("completed")
-const completedHeading = document.createElement("h3")
+const completedHeading = document.createElement("h4")
 completedHeading.innerHTML = completedTasks.length
 
-const projects = document.createElement("div")
-projects.classList.add("projects")
-const projectsHeading = document.createElement("h3")
+const projectsCount = document.createElement("div")
+projectsCount.classList.add("projectsCount")
+const projectsHeading = document.createElement("h4")
 projectsHeading.innerHTML = "0"
 
 tasks.appendChild(tasksHeading)
 completed.appendChild(completedHeading)
-projects.appendChild(projectsHeading)
+projectsCount.appendChild(projectsHeading)
 
 container.appendChild(tasks)
 container.appendChild(completed)
-container.appendChild(projects)
+container.appendChild(projectsCount)
 
 progress.appendChild(heading)
 progress.appendChild(container)
