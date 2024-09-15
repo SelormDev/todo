@@ -1,13 +1,14 @@
 import { clock, calendar } from "../../../../../images/icons"
+import { formatDistance, subDays } from "date-fns"
 
 const dateAndTime = document.createElement("div")
-dateAndTime.classList.add("dateAndTime")
-const heading = document.createElement("h2")
+dateAndTime.classList.add("dateAndTime", "card")
+const heading = document.createElement("h3")
 heading.innerHTML = "Date and Time"
 
 const time = document.createElement("div")
 time.classList.add("time")
-const timeHeading = document.createElement("h3")
+const timeHeading = document.createElement("h4")
 timeHeading.innerHTML = "In our time"
 const timeValue = document.createElement("span")
 timeValue.classList.add("timeValue")
@@ -20,7 +21,7 @@ time.appendChild(timeValue)
 
 const date = document.createElement("div")
 date.classList.add("date")
-const dateHeading = document.createElement("h3")
+const dateHeading = document.createElement("h4")
 dateHeading.innerHTML = "And today is"
 const dateValue = document.createElement("span")
 dateValue.classList.add("dateValue")
