@@ -25,3 +25,14 @@ body {
         "aside nav"
         "aside main";
 }
+
+h2 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #29A19C;
+}
+
+h3 {
+    color: #29A19C;
+    font-size: 1.15rem;
+}
