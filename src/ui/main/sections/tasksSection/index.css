@@ -1,4 +1,40 @@
 .tasksSection {
     flex: 1;
     height: 100%;
+
+    .progressContainer {
+
+        display: flex;
+        justify-content: space-between;
+
+        h4 {
+            font-size: .75rem;
+            text-align: center;
+            margin: 4px 0;
+        }
+
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 85px;
+            height: 85px;
+            border: 1px solid #29A19C;
+            border-radius: 50%;
+            color: #29A19C;
+            font-size: 2rem;
+        }
+    }
+
+    /* .tasks {
+            border: 2px solid red;
+        }
+
+        .completed {
+            border: 2px solid red;
+        }
+
+        .projects-count {
+            border: 2px solid red;
+        } */
 }

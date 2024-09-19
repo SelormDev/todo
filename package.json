@@ -6,10 +6,10 @@
   "homepage": "https://selormdev.github.io/todo",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve",
+    "start": "webpack serve --open",
     "build": "webpack --mode production",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d dist" 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
